@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>Jackie Dawson — Email Signature (Dawson's Plumbing)</title>
+<style>
+body{background:#E9EBEE;margin:0;padding:48px 24px;font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;color:#0B0B0C;}
+.wrap{max-width:640px;margin:0 auto;}
+.card{background:#fff;border-radius:14px;box-shadow:0 8px 24px rgba(11,11,12,.10);padding:32px;}
+.row{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px;}
+.label{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#2E9FE0;font-weight:700;}
+.btn{display:inline-flex;align-items:center;gap:8px;background:#2E9FE0;color:#fff;border:0;padding:11px 18px;border-radius:999px;font:inherit;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(46,159,224,.28);}
+.btn.copied{background:#1f8f4e;}
+.note{background:#fff;border-radius:14px;box-shadow:0 4px 14px rgba(11,11,12,.06);padding:24px 28px;margin-top:24px;font-size:14px;line-height:1.55;color:#3A3D42;}
+.note h2{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:#2E9FE0;margin:0 0 14px;}
+.note ol{padding-left:18px;margin:0;} .note li{margin-bottom:8px;}
+.note code{background:#EEF1F4;padding:2px 6px;border-radius:4px;font-size:12.5px;}
+.note .ok{background:#E8F4FB;border-left:3px solid #2E9FE0;padding:10px 14px;margin:10px 0;border-radius:4px;}
+</style></head>
+<body><div class="wrap">
+<div class="card">
+<div class="row"><div class="label" style="margin-bottom:0;">Signature preview</div>
+<button class="btn" id="copyBtn" type="button" onclick="copySignature()"><span id="copyLbl">Copy signature</span></button></div>
+
+<!-- ===== SIGNATURE (table-based, images hosted on GitHub Pages) ===== -->
+<table id="signature" role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;">
+<tr><td style="padding:0;">
+<table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:540px;max-width:100%;border-radius:12px;overflow:hidden;">
+<tr><td bgcolor="#0B0B0C" style="background-color:#0B0B0C;padding:15px 22px;">
+<table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+<tr>
+<!-- LEFT: transparent logo + slogan -->
+<td valign="middle" style="vertical-align:middle;width:118px;padding:0 18px 0 0;text-align:center;">
+<img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/logo.png" width="96" height="96" alt="Dawson's Plumbing Services" style="display:block;width:96px;height:96px;border:0;margin:0 auto;">
+<div style="font-size:9.5px;font-style:italic;letter-spacing:.3px;color:#9AA0A6;line-height:1.3;margin-top:8px;">Plumbing done properly.</div>
+</td>
+<!-- RIGHT: details -->
+<td valign="middle" style="vertical-align:middle;padding:0 0 0 18px;border-left:1px solid #26282B;">
+<div style="font-size:18px;font-weight:800;letter-spacing:.2px;color:#fff;line-height:1.1;">Jackie Dawson</div>
+<div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#2E9FE0;line-height:1.2;margin:3px 0 9px;">Accounts &amp; Administration</div>
+<div style="font-size:12.5px;line-height:20px;color:#E6E8EB;margin:0;padding:0;">
+<img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/phone.png" width="14" height="14" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:8px;">&nbsp;</span><a href="tel:+61432903768" style="color:#E6E8EB;text-decoration:none;vertical-align:middle;">0432 903 768</a><br>
+<img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/mail.png" width="14" height="14" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:8px;">&nbsp;</span><a href="mailto:admin@dpswa.com.au" style="color:#E6E8EB;text-decoration:none;vertical-align:middle;">admin@dpswa.com.au</a><br>
+<img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/pin.png" width="14" height="14" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:8px;">&nbsp;</span><a href="https://www.google.com/maps/search/?api=1&query=12+Seabrooke+Avenue+Rockingham+WA+6168" style="color:#E6E8EB;text-decoration:none;vertical-align:middle;">12 Seabrooke Ave, Rockingham WA 6168</a><br>
+<img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/globe.png" width="14" height="14" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:8px;">&nbsp;</span><a href="https://dpswa.com.au" style="color:#E6E8EB;text-decoration:none;vertical-align:middle;">dpswa.com.au</a>
+</div>
+<!-- buttons: Facebook, Instagram (white buttons, brand icons + text label for robustness) -->
+<div style="margin-top:12px;line-height:0;">
+<a href="https://www.facebook.com/profile.php?id=61589836775842" style="display:inline-block;background:#fff;border-radius:5px;text-decoration:none;vertical-align:middle;margin-right:6px;"><table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"><tr><td height="28" style="height:28px;padding:0 10px 0 9px;vertical-align:middle;line-height:0;"><img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/fb.png" width="18" height="18" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:6px;">&nbsp;</span><span style="font-size:11px;font-weight:800;letter-spacing:.4px;color:#0B0B0C;vertical-align:middle;font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;">Facebook</span></td></tr></table></a>
+<a href="https://www.instagram.com/dawsonsplumbingservices_/" style="display:inline-block;background:#fff;border-radius:5px;text-decoration:none;vertical-align:middle;"><table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;"><tr><td height="28" style="height:28px;padding:0 10px 0 9px;vertical-align:middle;line-height:0;"><img src="https://aaronparton2-sketch.github.io/dawsons-plumbing-signature/img/ig.png" width="18" height="18" style="display:inline-block;vertical-align:middle;border:0;"><span style="display:inline-block;width:6px;">&nbsp;</span><span style="font-size:11px;font-weight:800;letter-spacing:.4px;color:#0B0B0C;vertical-align:middle;font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;">Instagram</span></td></tr></table></a>
+</div>
+</td></tr></table>
+</td></tr>
+<tr><td bgcolor="#2E9FE0" style="background-color:#2E9FE0;padding:7px 22px;">
+<span style="font-size:12px;font-weight:800;letter-spacing:1px;color:#fff;">PL10788</span>
+<span style="font-size:12px;font-weight:700;letter-spacing:1px;color:#fff;">&nbsp;&nbsp;&middot;&nbsp;&nbsp;FULLY LICENSED &amp; INSURED</span>
+</td></tr>
+</table>
+</td></tr></table>
+<!-- ===== END SIGNATURE ===== -->
+</div>
+
+<div class="note">
+<div class="ok"><strong>Outlook-ready.</strong> The logo and all icons are <strong>hosted online</strong> (not embedded), so they render in classic Outlook / Microsoft 365, which strips embedded images. Facebook and Instagram show a labelled white pill and click through correctly.</div>
+<h2>How to install it (Outlook / Microsoft 365)</h2>
+<ol>
+<li>Hit <strong>Copy signature</strong> above (or click in the preview, <code>Ctrl + A</code>, <code>Ctrl + C</code>).</li>
+<li>Outlook &rarr; <strong>File &rarr; Options &rarr; Mail &rarr; Signatures</strong> (or in new Outlook: <strong>Settings &rarr; Mail &rarr; Compose and reply</strong>).</li>
+<li>Create a new signature, click in the box, <code>Ctrl + V</code>.</li>
+<li>Set it as default for new messages and replies/forwards. <strong>Save.</strong></li>
+</ol>
+<p style="margin-top:6px;color:#6B7077;">Best done on <strong>Outlook on your computer</strong> or <strong>Outlook on the web</strong> (outlook.office.com). The Outlook phone app can't hold a signature with images, so set it up on the desktop or web version and it'll come through on every send.</p>
+<p style="margin-top:6px;color:#6B7077;">Install via signature <em>settings</em>, not by pasting into the message body, so the phone and email stay clickable.</p>
+</div>
+</div>
+<script>
+async function copySignature(){
+ const sig=document.getElementById('signature'),btn=document.getElementById('copyBtn'),lbl=document.getElementById('copyLbl');
+ try{
+  if(navigator.clipboard&&window.ClipboardItem){
+   await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([sig.outerHTML],{type:'text/html'}),'text/plain':new Blob([sig.innerText],{type:'text/plain'})})]);
+  }else{const r=document.createRange();r.selectNode(sig);const s=window.getSelection();s.removeAllRanges();s.addRange(r);document.execCommand('copy');s.removeAllRanges();}
+  lbl.textContent='✓ Copied — paste into Outlook';btn.classList.add('copied');
+  setTimeout(()=>{lbl.textContent='Copy signature';btn.classList.remove('copied');},2400);
+ }catch(e){lbl.textContent='Use Ctrl+A then Ctrl+C';setTimeout(()=>{lbl.textContent='Copy signature';},3000);}
+}
+</script>
+</body></html>
